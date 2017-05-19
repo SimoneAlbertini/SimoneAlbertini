@@ -1,0 +1,10 @@
+@inproceedings{
+	title = {Neural 1D Barcode Detection Using the Hough Transform},
+	author = {Zamberletti, Alessandro and Gallo, Ignazio and Albertini, Simone and Noce, Lucia},
+	year = {2015},
+	booktitle = {IPSJ Transactions on Computer Vision and Applications},
+	volume = {7},
+	page = {1--9},
+	DOI={10.2197/ipsjtcva.7.1},
+	ISSN={1882-6695},
+}

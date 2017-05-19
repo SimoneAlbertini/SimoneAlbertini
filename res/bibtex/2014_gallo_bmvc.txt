@@ -1,0 +1,8 @@
+@inproceedings{
+	title = {High Entropy Ensembles for Holistic Figure-ground Segmentation},
+	author = {Gallo, Ignazio and Zamberletti, Alessandro and Albertini, Simone and Noce, Lucia},
+	year = {2014},
+	booktitle = {Proceedings of the British Machine Vision Conference},
+	publisher = {BMVA Press},
+	editors = {Valstar, Michel and French, Andrew and Pridmore, Tony}
+}

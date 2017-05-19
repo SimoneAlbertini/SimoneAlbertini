@@ -1,0 +1,10 @@
+@article{albertini2014jlcl,
+  author="Simone Albertini and Alessandro Zamberletti and Ignazio Gallo",
+  title="Unsupervised feature learning for sentiment classification of short documents",
+  journal="Journal for Language Technology and Computational Linguistics",
+  volume={29},
+  number={1},
+  year={2014},
+  issn={2190-6858},
+  pages= "1--15"
+}
