@@ -1,0 +1,7 @@
+@unpublished{albertini2013pathos,
+	author = "Simone Albertini and Alessandro Zamberletti and Ignazio Gallo",
+	title = "Sparse unsupervised feature learning for sentiment classification of short documents",
+	note = "presented at Practice and Theory of Opinion Mining and Sentiment Analysis (PATHOS) workshop",
+	year = "2013"
+}
+

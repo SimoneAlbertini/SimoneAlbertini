@@ -1,0 +1,6 @@
+@inproceedings{zamberletti2013acpr,
+	author = "Alessandro Zamberletti and Ignazio Gallo and Simone Albertini",
+	title = "Robust Angle Invariant 1D Barcode Detection",
+	booktitle = "In proceedings of the 2nd Asian Conference on Pattern Recognition (ACPR)",
+	year = "2013"
+}
