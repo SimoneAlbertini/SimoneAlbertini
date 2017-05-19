@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="description" content="Simone Albertini's academic personal page while working for University of Insubria - DiSTA. Resources, Papers, code, bibtex and slides.">
+		<meta name="keywords" content="insubria uninsubria dista paper code slides bibtex gallo thesis phd">
+		<title>Simone Albertini, Ph.D - University of Insubria</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript">
+		//<![CDATA[
+		var searchElement = function (tagName, className) {
+			var links = document.getElementsByTagName(tagName);
+			var toReturn = new Array();
+			for (var i=0 ; i < links.length ; i++) {
+				if (links[i].className == className)
+					toReturn.push(links[i]);
+			}
+			return toReturn;
+		}
+		
+		var liamEneddiHnu = function(aTag) {
+			var am = "ma";
+			var tir = "rit";
+			var ddo = "o:";
+			var liame = aTag.href;
+			liame = liame.replace("w"+tir+"e-t"+ddo, am+"ilt"+ddo);
+			liame = liame.replace(/-dot-/g,'.');
+			liame = liame.replace(/-at-/g,'@');
+			aTag.href = liame;
+
+			var text = aTag.innerHTML;
+			text = text.replace(/ dot /g,'.');
+			text = text.replace(/ at /g,'@');
+			aTag.innerHTML = text;
+		}
+		
+		
+		window.onload = function() {
+			var sliame = searchElement('a', 'liamnedih');
+			for (var i=0 ; i < sliame.length ; i++) {
+				liamEneddiHnu(sliame[i]);
+			}
+			
+		}
+		//]]>
+	</script>
+	<script type="text/javascript">
+	var counter = 0;
+	function changeImg() {
+		counter++;
+		if (counter>5) {
+			document.getElementById('portrait').src="res/portrait2.png";
+			counter=0;
+		}
+	}
+
+	</script>
+
+	</head>
+
+	<body>
+	<div class="content">
+		
+		<img src="res/uni-logo.jpg" alt="uninsubria logo" height="90" id="uni-logo" /></td>
+		<h1>&nbsp;&nbsp;Simone Albertini's academic web page</h1></td>
+		
+		<br/>
+		<img src="res/portrait.png" alt="Simone Albertini" id="portrait" onclick="changeImg()" /></td>
+		<div id="personal-info">
+			<h3>Simone Albertini</h3>
+			<p>Former Ph.D Student at University of Insubria</p>
+			<a target="_blank" href="http://www4.uninsubria.it/on-line/home/naviga-per-struttura/dipartimenti/dipartimento-di-scienze-teoriche-e-applicate.html">Dipartimento di Scienze Teoriche e Applicate</a> - <a target="_blank" href="http://www.uninsubria.eu/">University of Insubria</a><br />
+			<p>Former member of <a target="_blank" href="http://artelab.dicom.uninsubria.it/">Arte-lab</a> research group</p>
+			<a class="liamnedih" href="write-to:&quot;Simone Albertini&quot; &lt;albertini-dot-simone-at-gmail-dot-com&gt;">albertini dot simone at gmail dot com</a>&nbsp;&nbsp;&dash;&nbsp;&nbsp;<a target="_blank" href="http://www.linkedin.com/pub/simone-albertini/31/625/a78">My LinkedIn</a>&nbsp;&nbsp;&dash;&nbsp;&nbsp;<a target="_blank" href="https://github.com/SimoneAlbertini">My GitHub</a><br />
+		</div>
+
+		<br clear="all" />
+
+		<h3>Research Interests</h3>
+		<ul>
+			<li><strong>Computer Vision</strong>: <em>image classification</em> and <em>object recognition</em></li>
+			<li><strong>Machine Learning</strong>: <em>feature learning</em> and <em>pattern classification</em></li>
+			<li>Information Extraction and web mining (minor interest)</li>
+		</ul>
+
+		<br clear="all" />
+
+		<h3>Code</h3>
+		<ul>
+			<li><strong><a target="_blank" href="https://github.com/SimoneAlbertini/BarcodeDetectionHough">1D Barcode Detection</a></strong></li>
+			<li><strong><a target="_blank" href="https://github.com/SimoneAlbertini/RBMcpp">RBM for OpenCv</a></strong></li>
+		</ul>
+
+		<br clear="all" />
+
+		<h3>Pubblications</h3>
+		<strong>2015</strong>
+		<ul>
+			<li><p><em>Neural 1D Barcode Detection Using the Hough Transform</em><br/>
+						A. Zamberletti, I. Gallo, S. Albertini and L. Noce<br/>
+						IPSJ Transactions on Computer Vision and Applications<br/>
+						[<a href="https://www.jstage.jst.go.jp/article/ipsjtcva/7/0/7_1/_pdf">article</a>][<a href="http://artelab.dista.uninsubria.it/res/research/bibtex/2015/2015_zamberletti_ipsj.txt">bibtex</a>]
+				</li>
+		</ul>
+		<ul>
+			<li><p><em>Ensembles of Segmentation Algorithms for Figure-ground Segmentation</em><br/>
+						S. Albertini<br/>
+						Ph.D Thesis<br/>
+						[<a href="res/papers/2015/phd_thesis_albertini.pdf">thesis</a>]
+				</li>
+		</ul>
+		<strong>2014</strong>
+		<ul>
+			<li><p><em>High Entropy Ensembles for Holistic Figure-ground Segmentation</em><br/>
+					I. Gallo, A. Zamberletti, S. Albertini and L. Noce<br/>
+					British Machine Vision Conference (BMVC)<br/>
+					[<a href="http://artelab.dista.uninsubria.it/res/research/papers/2014/2014_gallo_bmvc.pdf">paper</a>][<a href="http://artelab.dista.uninsubria.it/res/research/bibtex/2014/2014_gallo_bmvc.txt">bibtex</a>][<a href="http://artelab.dista.uninsubria.it/res/research/others/2014/2014_poster_gallo_bmvc.pdf">poster</a>]
+			</li>
+			<li><p><em>Unsupervised feature learning for sentiment classification of short documents</em><br/>
+					S. Albertini, A. Zamberletti and I. Gallo<br/>
+					Journal for Language Technology and Computational Linguistics (JLCL)<br/>
+					[<a href="http://artelab.dista.uninsubria.it/res/research/articles/2014/2014_albertini_jlcl.pdf">article</a>][<a href="http://artelab.dista.uninsubria.it/res/research/bibtex/2014/2014_albertini_jlcl.txt">bibtex</a>]
+			</li>
+		</ul>
+		
+		<strong>2013</strong>
+		<ul>
+			<li><p><em>Robust Angle Invariant 1D Barcode Detection</em><br/>
+					A. Zamberletti, I. Gallo and S. Albertini<br/>
+					The 2nd Asian Conference on Pattern Recognition (ACPR), Okinaja, Japan<br/>
+					[<a href="http://artelab.dista.uninsubria.it/res/research/papers/2013/2013_zamberletti_acpr.pdf">paper</a>][<a href="http://artelab.dista.uninsubria.it/res/research/bibtex/2013/2013_zamberletti_acpr.txt">bibtex</a>][<a href="http://artelab.dista.uninsubria.it/res/research/others/2013/2013_zamberletti_acpr.pdf">slides</a>][<a href="http://artelab.dicom.uninsubria.it/downloads/datasets/barcode/hough_barcode_1d/hough_barcode_1d.html">dataset</a>][<a href="https://github.com/SimoneAlbertini/BarcodeDetectionHough">code</a>]
+			</li>
+			<li><p><em>Sparse unsupervised feature learning for sentiment classification of short documents</em><br/>
+					S. Albertini, A. Zamberletti, I. Gallo<br/>
+					The 2nd workshop on Practice and Theory of Opinion mining and Sentiment analysis (PATHOS), in GSCL-2013, Darmstadt, Germany<br/>
+					[<a href="http://artelab.dista.uninsubria.it/res/research/papers/2013/2013_albertini_pathos.pdf" >manuscript</a>]
+					[<a href="/res/bibtex/2013/2013_albertini_pathos.txt" >bibtex</a>]
+					[<a href="http://artelab.dista.uninsubria.it/res/research/others/2013/2013_albertini_pathos.pdf" >slides</a>]
+			</li>
+			<li><p><em>Multi-net System Configuration for Visual Object Segmentation by Error Backpropagation</em><br/>
+					I. Gallo, M. Vanetti, S. Albertini and A. Nodari<br/>
+					The 6th Iberian Conference on Pattern Recognition and Image Analysis (IbPRIA), Madeira, Portugal<br/>
+					[<a href="http://artelab.dista.uninsubria.it/res/research/papers/2013/2013_gallo_ibpria.pdf">paper</a>][<a href="http://dblp.uni-trier.de/rec/bibtex/conf/ibpria/GalloVAN13">bibtex</a>]</p>
+			</li>
+		</ul>
+		<strong>2012</strong>
+		<ul>
+			<li><p><em>Classification of Segmented Objects through a Multi-Net Approach</em><br/>
+				A. Zamberletti, I. Gallo, S. Albertini, M. Vanetti and A. Nodari<br/>
+				5th INNS IAPR TC3 GIRPR International Workshop on Artificial Neural Networks in Pattern Recognition, Trento, Italy.<br/>
+				[<a href="http://artelab.dista.uninsubria.it/res/research/papers/2012/2012_zamberletti_annpr.pdf">paper</a>][<a href="http://dblp.uni-trier.de/rec/bibtex/conf/annpr/ZamberlettiGAVN12">bibtex</a>]</p>
+			</li>
+			<li><p><em>A new query suggestion algorithm for taxonomy-based search engines</em><br/>
+				R. Zanon, S. Albertini, M. Carullo and I. Gallo<br/>
+				International Conference on Knowledge Discovery and information Retrieval (KDIR), Barcelona, Spain<br/>
+				[<a href="http://artelab.dista.uninsubria.it/res/research/papers/2012/2012_zanon_kdir.pdf">paper</a>][<a href="http://dblp.uni-trier.de/rec/bibtex/conf/ic3k/ZanonACG12">bibtex</a>][<a href="http://artelab.dista.uninsubria.it/res/research/others/2012/2012_albertini_kdir.pdf">slides</a>]</p>
+			</li>
+			<li><p><em>Fast Tree Leaf Images Retrieval using a Probabilistic Multi-class Support Vector Machine</em><br/>
+				I. Gallo, A. Zamberletti, S.Albertini, A.Nodari and M.Vanetti<br/>
+				CLEF 3rd International Conference on Multilingual and Multimodal Information Access Evaluation, Rome, Italy<br/>
+				[<a href="http://artelab.dista.uninsubria.it/res/research/papers/2012/2012_gallo_clef.pdf">paper</a>][<a href="http://dblp.uni-trier.de/rec/bibtex/conf/clef/GalloZANV12">bibtex</a>]</p>
+			</li>
+			<li><p><em>A mobile visual search application for content based image retrieval in the fashion domain</em><br/>
+				A. Nodari, M. Ghiringhelli, A. Zamberletti, S. Albertini, M. Vanetti and I. Gallo<br/>
+				Proceedings of the Content-based Multimedia Indexing 2012 (CBMI), Annency, France<br/>
+				[<a href="http://artelab.dista.uninsubria.it/res/research/papers/2012/2012_nodari_cbmi.pdf">paper</a>][<a href="http://dblp.uni-trier.de/rec/bibtex/conf/cbmi/NodariGZVAG12">bibtex</a>]</p>
+			</li>
+			<li><p><em>Color and Texture Indexing using an Object Segmentation Approach</em><br/>
+				A. Nodari, I. Gallo, M. Vanetti and S. Albertini<br/>
+				EANN/AIAI Special Issue of the Engineering Intelligent Systems Journal<br/>
+				[<a href="http://artelab.dista.uninsubria.it/res/research/articles/2012/2012_nodari_eann.pdf">paper</a>]</p>
+			</li>
+			<li><p><em>Learning Object Segmentation using a Multi Network Segment Classification Approach</em><br/>
+				S. Albertini, I. Gallo, M. Vanetti, A. Nodari<br/>
+				International Conference on Computer Vision Theory and Applications (VISAPP), Rome, Italy<br/>
+				[<a href="http://artelab.dista.uninsubria.it/res/research/papers/2012/2012_albertini_visapp.pdf">paper</a>][<a href="http://artelab.dista.uninsubria.it/res/research/bibtex/2012/2012_albertini_visapp.txt">bibtex</a>][<a href="http://artelab.dista.uninsubria.it/res/research/others/2012/2012_albertini_visapp.pdf" >slides</a>]</p>
+			</li>
+		</ul>
+	</div>
+	</body>
+</html>
