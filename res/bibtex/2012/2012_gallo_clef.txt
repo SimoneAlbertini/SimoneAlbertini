@@ -1,0 +1,12 @@
+@inproceedings{gallo2012clef,
+  author    = {Ignazio Gallo and
+               Alessandro Zamberletti and
+               Simone Albertini and
+               Angelo Nodari and
+               Marco Vanetti},
+  title     = {Fast Tree Leaf Image Retrieval Using a Probabilistic Multi-class Support
+               Vector Machine Classifier},
+  booktitle = {{CLEF} 2012 Evaluation Labs and Workshop, Online Working Notes, Rome,
+               Italy, September 17-20, 2012},
+  year      = {2012}
+}

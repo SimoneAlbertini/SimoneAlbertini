@@ -1,0 +1,13 @@
+@inproceedings{zamberletti2012annpr,
+  author    = {Alessandro Zamberletti and
+               Ignazio Gallo and
+               Simone Albertini and
+               Marco Vanetti and
+               Angelo Nodari},
+  title     = {Classification of Segmented Objects through a Multi-net Approach},
+  booktitle = {Artificial Neural Networks in Pattern Recognition - 5th {INNS} {IAPR}
+               {TC} 3 {GIRPR} Workshop, {ANNPR} 2012, Trento, Italy, September 17-19,
+               2012. Proceedings},
+  pages     = {151--162},
+  year      = {2012},
+}

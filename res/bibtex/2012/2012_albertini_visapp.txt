@@ -1,0 +1,7 @@
+@InProceedings{Albertini:2012:ObjectSegmentation,
+	author = {Albertini, Simone and Gallo, Ignazio and Vanetti, Marco and Nodari, Angelo},
+	booktitle = {Proocedings of the International Conference on Computer Vision Theory and Applications (VISAPP2012)},
+	title = {Learning Object Segmentation Using A Multi Network Segment Classification Approach},
+	year = 2012,
+	location = {Rome, Italy}
+}

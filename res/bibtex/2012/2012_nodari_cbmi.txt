@@ -1,0 +1,14 @@
+@inproceedings{nodari2012cbmi,
+  author    = {Angelo Nodari and
+               Matteo Ghiringhelli and
+               Alessandro Zamberletti and
+               Marco Vanetti and
+               Simone Albertini and
+               Ignazio Gallo},
+  title     = {A mobile visual search application for content based image retrieval
+               in the fashion domain},
+  booktitle = {10th International Workshop on Content-Based Multimedia Indexing,
+               {CBMI} 2012, Annecy, France, June 27-29, 2012},
+  pages     = {1--6},
+  year      = {2012}
+}
