@@ -1,0 +1,35 @@
+body {
+	background-color: #ccc;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 0px;
+	padding-bottom: 2em;
+	color: black;
+}
+
+
+
+div.content {
+	padding-top: 1em;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	padding-bottom: 1em;
+	background-color: white;
+	border-radius: 10px;
+	border-style: ridge;
+	border-width: 0.3em;
+	border-color: #006a5a;
+}
+
+img#uni-logo,#portrait {
+	float: left;
+	margin-right: 1em;
+}
+
+a {
+	color: #006a5a;
+	text-decoration: none;
+}
+
+a:hover { text-decoration: underline; }
+a:visited { color: #006a5a; }
